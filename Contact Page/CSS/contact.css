@@ -184,20 +184,8 @@ header {
   .home {
     grid-template-columns: 1fr;
   }
+}
 
-  .team {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-  .team-img {
-    order: 2;
-  }
-}
-@media (max-width: 991px) {
-  .promo video {
-    max-width: 90%;
-  }
-}
 @media (max-width: 515px) {
   .connect {
     flex-direction: column;
