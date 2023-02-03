@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fly With Maroon</title>
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <!-- Link To CSS -->
+  <link rel="stylesheet" href="landingpage.css">
+  <!-- Link To CSS Library for Scrolling-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">Fly With Maroon</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#team">Team and Mission</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Form</a></li>
+            <li><a href="checklist.html">Checklist</a></li>
+    <!-- Dark Mode -->
+    <div class="bx bx-moon" id="darkmode"></div>
+    </ul>
+    </header>
+    <!-- Home  Section-->
+    <section class="home" id="home"> 
+             <div class="home-text" data-aos="fade-left">
+            <h1>Fly with Maroon</h1>
+            <h2>Don't let someone else <br>have a better vacation</h2>
+            <a href="#" class="btn" onclick="toggle();">Promotional Video</a>            
+        </div>
+        <div class="promo">
+            <video src="promo.mp4" controls="true"></video>
+            <img src="close.png" class="close" onclick="toggle();"> 
+        </div>
+            <div class="home-img" data-aos="fade-left">
+            <img src="landingpage.png" alt="">
+        </div>
+
+        <script type="text/javascript">
+            function toggle(){
+                var promo= document.querySelector(".promo")
+                promo.classList.toggle("active")
+                video.pause();
+                video.currentTime = 0;
+            }
+        </script>
+    </section> 
+
+    <!-- Team -->
+    <section class="team" id="team">
+        <div class="team-img" data-aos="fade-in">
+            <img src="team.png" alt="">
+        </div>
+        <div class="team-text" data-aos="fade-in">
+            <span>Team and Mission</span>
+            <h2>As locals we know <br> all the best tips for travelers</h2>
+            <p><em>For example, we would never let they scam you with a 15£ pizza in Italy</em></p>
+            <p><b>Fly With Maroon is a Travel Agency for those who want to explore countries with the best insights.</b>
+                <br> Don't settle for a typical holiday and trust our team of locals:</p> 
+        </div>
+        <div class="team-img" data-aos="fade-in">
+            <img class="resize" src="team2.png"/>
+        </div>
+        <div class="team-text2" data-aos="fade in">
+            <p> - <b>Angela</b> belives that there is no place like <b>Italy</b> as it is one of the most important sites in the long history of human civilization. It is an inevitable destination because of the raw beauty of its ancient cities, the magnificent gastronomy and, of course, <em>la dolce vita</em>. Did she mention it is also the best place to eat pizza, pasta and gelato?
+            <br>- <b>Ashwini</b> is proud of <b>India</b> as it is known as the "Land of Diversity". Each state is different in culture, food, language, and religious traditions. From deserts to glacial mountain peaks, spotless white coasts to the evergreen tropical forests, there's a lot to explore and get dazzled!
+            <br>- <b>Klaudia</b>
+            <br>- <b>Vera</b>
+            </p>
+        </div> 
+           </section>
+
+    <!-- Destinations -->
+    <section class="destinations" id="destinations">
+        <div class="heading">
+            <span>Destinations</span>
+            <h2>Best Destinations</h2>
+        </div>
+        <div class="destinations-container">
+            <!-- Box 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/destinations.png" alt="">
+                </div>
+                <h2>111</h2>
+                <h3>111</h3>
+                <span>111</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+            <!-- Box 2 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/destinations2.png" alt="">
+                </div>
+                <h2>222</h2>
+                <h3>222</h3>
+                <span>222</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+            <!-- Box 3 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/destinations3.png" alt="">
+                </div>
+                <h2>333</h2>
+                <h3>333</h3>
+                <span>333</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="heading">
+            <span>Services</span>
+            <h2>We provide best services for your vacations</h2>
+        </div>
+
+        <div class="services-container">
+            <!-- Box 1 -->
+            <div class="s-box">
+                <img src="images/service1.png" alt="">
+                <h3>Taxi</h3>
+                <p>Let's gooooooo</p>
+            </div>
+            <!-- Box 2 -->
+            <div class="s-box">
+                <img src="images/service2.png" alt="">
+                <h3>Hotel Reservation</h3>
+                <p>Don't end up in a swamp</p>
+            </div>
+            <!-- Box 3 -->
+            <div class="s-box">
+                <img src="images/service3.png" alt="">
+                <h3>SPA</h3>
+                <p>Relax take it easy</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect -->
+    <section class="connect">
+        <div class="connect-text">
+            <span>Let's Talk</span>
+            <h2>Connect now</h2>
+        </div>
+        <a href="#" class="btn">Contact Us</a>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="contact-box">
+            <h3>Fly With Maroon</h3>
+            <span>Connect With Us</span>
+            <div class="social">
+                <a href="https://www.facebook.com/profile.php?id=100089732212942"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://github.com/angela-barone/maroon_team"><i class="bx bxl-github"></i></a>
+            </div>
+        </div>
+        <div class="contact-box">
+            <h3>Created by the Maroon Team</h3>
+            <li><a href="#home">Angela</a></li>
+            <li><a href="#about">Ashwini</a></li>
+            <li><a href="#destinations">Klaudia</a></li>
+            <li><a href="#services">Vera</a></li>
+        </div>
+        
+        <div class="contact-box address">
+            <h3>Contact</h3>
+            <i class='bx bxs-map' ><span>44 Street London, UK</span></i>
+            <i class='bx bxs-phone' ><span>+1 333 333 3333</span></i>
+            <i class='bx bxs-envelope' ><span>CFG_Maroon@email.com</span></i>
+        </div>
+    </section>
+
+
+   
+    <!-- Link To JavaScript -->
+    <script src="landingpage.js"></script>
+    <!--Link To CSS Library for Scrolling-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>

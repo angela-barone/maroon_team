@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checklist</title>
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <!-- Link To CSS -->
+  <link rel="stylesheet" href="landingpage.css">
+  <!-- Link To CSS Library for Scrolling-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">Fly With Maroon</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="landingpage.html">Home</a></li>
+            <li><a href="#team">Team and Mission</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Form</a></li>
+            <li><a href="checklist.html">Checklist</a></li>
+      <!-- Dark Mode -->
+     <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+
+    <section class="checklist" id="checklist">
+        <div class="checklist-text" data-aos="fade-left">
+            <h2>Aren't you forgetting something?</h2>
+            <p>Most of our clients always forget something important when they pack their luggages. <b>
+               Don't be one of them!</b><br>
+               We created a virtual checklist that will remind you what you must pack.
+             </p>
+
+             <div class="checklist-container">
+                <div>
+                  <h4>Documents</h4>
+                  <ul>
+                    <li>
+                      <input
+                        type="checkbox"
+                        name="passport"
+                        onclick="filterVideo()"
+                      />
+                      <label for="box1">Passport</label>
+                    </li>
+        
+                    <li>
+                      <input
+                        type="checkbox"
+                        name="identity card"
+                        onclick="filterVideo()"
+                      />
+        
+                      <label for="box2">Identity Card</label>
+                    </li>
+        
+                    <li>
+                      <input
+                        type="checkbox"
+                        name="plane ticket"
+                        onclick="filterVideo()"
+                      />
+                      <label for="box3">Plane Ticket</label>
+                    </li>
+                  </ul>
+                </div>
+        
+                <div>
+                  <h4>Good To Have</h4>
+                  <ul>
+                    <li>
+                      <input
+                        type="checkbox"
+                        name="power plug adapter"
+                        onclick="filterVideo()"
+                      />
+                      <label for="box4">Power Plug Adapter</label>
+                    </li>
+        
+                    <li>
+                      <input
+                        type="checkbox"
+                        name="hairdryer"
+                        onclick="filterVideo()"
+                      />
+                      <label for="box5">Hairdryer</label>
+                    </li>
+        
+                    <li>
+                      <input
+                        type="checkbox"
+                        name="skincare"
+                        onclick="filterVideo()"
+                      />
+                      <label for="box6">Skincare</label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            
+                <div class="checklist-container2">
+                <div class="chechlist-img" data-aos="fade-up">
+                <img src="checklist.png" alt="" class="responsive">
+            </div>
+            </div>
+        </section>
+        
+<!-- Link To JavaScript -->
+<script src="landingpage.js"></script>
+<!--Link To CSS Library for Scrolling-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
