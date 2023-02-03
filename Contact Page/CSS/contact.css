@@ -132,6 +132,138 @@ header {
   margin-left: 1rem;
 }
 
+.all-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bx {
+  padding: 20px;
+}
+
+.contact-form {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contact-form form {
+  flex: 1 1 40rem;
+  padding: 2rem;
+  margin: 1rem;
+  margin-top: 4rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+  border-radius: 0.3rem;
+}
+
+.contact-form .content {
+  flex: 1 1 40rem;
+  padding: 3rem 1rem;
+}
+
+.contact-form form .box {
+  width: 100%;
+  color: #150e56;
+  border-bottom: 0.2rem solid rgba(0, 0, 0, 0.3);
+  margin: 0.1rem 0;
+  border-radius: 0.2rem;
+}
+
+.contact-form form .box::placeholder {
+  text-transform: capitalize;
+  color: #800000;
+}
+
+.contact-form form .box:focus {
+  border-color: var(--main-color);
+}
+
+.contact-form form .message {
+  height: 15rem;
+  resize: none;
+}
+
+/* .btn-contact {
+  display: inline-block;
+  background: var(--text-color);
+  padding: 10px 20px;
+  border-radius: 0.3rem;
+  color: white;
+  cursor: pointer;
+}
+.btn-contact:hover {
+  background: #800000;
+  transition: all 200ms ease-in-out;
+} */
+
+/* SEND BUTTON*/
+
+.send-btn {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 25px/50%;
+  background-color: #800000;
+  color: white;
+  font-size: 0.9rem;
+  position: relative;
+  box-shadow: 0 0 0 #150e56 inset, 0 2px 5px #0095ffa6;
+  transition: all 350ms ease-in-out;
+  cursor: pointer;
+}
+.circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.plane-icon {
+  position: absolute;
+  left: -0.5em;
+  top: 50%;
+  transform: translateY(-50%) rotate(-25deg);
+}
+
+.send-btn.checked {
+  box-shadow: 200px 0 0 #50c878 inset, 0 2px 5px #50c878a6;
+}
+
+.rotateCircle {
+  animation: rotate 3s ease-in-out 1;
+}
+
+/* .hide {
+  display: none;
+  visibility: hidden;
+} */
+
+@keyframes rotate {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.contact-form .content h3 {
+  color: #800000;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.contact-form .content p {
+  margin-bottom: 20px;
+}
+
+.contact-form .contact-box {
+  display: flex;
+}
+
 /*RESPONSIVENESS*/
 
 @media (max-width: 921px) {

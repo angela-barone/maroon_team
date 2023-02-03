@@ -12,6 +12,8 @@
       href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
     />
 
+    <script src="https://kit.fontawesome.com/c4060f1537.js" crossorigin="anonymous"></script>
+
     <!-- adding chosen font (Poppins)-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -50,37 +52,51 @@
     </section>
 
     <!-- Contact Section Starts-->
-    <form action="">
-      <input type="text" class="box" placeholder="name" />
-      <input type="email" class="box" placeholder="your email" />
-      <textarea
-        name=""
-        id=""
-        cols="30"
-        rows="10"
-        class="box message"
-        placeholder="message"
-      ></textarea>
+    <section>
+    <div class="contact-form">
+      <form action="">
+        <input type="text" class="box" placeholder="your name" />
+        <input type="email" class="box" placeholder="your email" />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          class="box message"
+          placeholder="your message"
+        ></textarea>
 
-      <input type="submit" class="btn" value="send message" />
+        <!-- <input type="submit" class="btn-contact" value="Send Message" /> -->
 
-      <div class="content">
-        <h3>Let's fly together!</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
-          minus architecto, mollitia optio voluptas, rerum ad pariatur molestiae
-          repudiandae ratione id ab nam tempore eveniet similique provident vel
-          quidem assumenda?
-        </p>
-        <div class="icons">
-          <i class="fas fa-map-marker-alt"></i> 44 Street London, UK
+        <button class="send-btn" >
+          <div class="circle">
+            <i class="fa-solid fa-paper-plane plane-icon hide"></i>
+          </div>
+          Send
+        </button>
+
+        </form>
+
+        <div class="content">
+          <h3>Let's fly together!</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
+            minus architecto, mollitia optio voluptas, rerum ad pariatur
+            molestiae repudiandae ratione id ab nam tempore eveniet similique
+            provident vel quidem assumenda?
+          </p>
+        <div class="all-icons">
+         <i class="bx bxs-map"><span>44 Street London, UK</span></i>
+        <i class="bx bxs-phone"><span>+1 333 333 3333</span></i>
+        <i class="bx bxs-envelope"><span>CFG_Maroon@email.com</span></i>
         </div>
-        <div class="icons">
-          <i class="fas fa-globe"></i> www.flywithmaroon.com
-        </div>
-        <div class="icons"><i class="fas fa-phone"></i> +1 333 333 3333</div>
-      </div>
-    </form>
+        </section>
+
+        <video>
+          <source src="travel.mp4" type="video/mp4">
+        </video>
+    
+    
     <!-- Contact Section Ends-->
 
     <!-- Contact -->
