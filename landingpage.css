@@ -150,12 +150,10 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
-  align-items: center;
-}
+ }
 .team-img img {
   max-width: 80%;
-  border-radius: 0.5rem;
-}
+  }
 .team-text span {
   color: var(--main-color);
   font-weight: 500;
@@ -166,6 +164,14 @@ header {
 .team-text p {
   margin: 0.8rem 0 1.8rem;
 }
+.team-img2 img{
+  max-width: 80%;
+}
+.resize {
+  width: 200px;
+  height: auto;
+}
+
 .heading {
   text-align: center;
 }
@@ -176,7 +182,7 @@ header {
 .heading h2 {
   font-size: var(--h2-font);
 }
-.menu-container {
+.destinations-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, auto));
   gap: 1.5rem;
@@ -291,6 +297,82 @@ header {
 }
 .address span {
   margin-left: 1rem;
+}
+
+/*CHECKLIST PAGE*/
+
+.checklist {
+  position: relative;
+  margin-top: 2rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding-top: 100px;
+}
+
+.chechlist-text h2 {
+  font-size: var(--h2-font);
+  }
+
+.chechlist-text p {
+  margin: 0.8ren 0 1.8rem;
+}
+
+.checklist-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  max-width: 640px;
+  margin: 0 auto;
+  color: #800000;
+}
+.checklist-container div {
+  padding: 24px;
+  background-color: var(--buttoncolour);
+  border-radius: 20px;
+}
+.checklist-container div:hover {
+  background: var(--buttonhover);
+  transition: all 200ms ease-in-out;
+}
+.checklist-container h4 {
+  margin-bottom: 12px;
+}
+.checklist-container [type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin: 4px 0;
+  cursor: pointer;
+}
+.checklist-container label {
+  color: #800000;
+  position: relative;
+  top: -4px;
+  font-size: 16px;
+  padding-left: 8px;
+}
+.checklist-container2 {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  max-width: 640px;
+}
+.checklist-container2 div {
+  padding-left: 370px;
+  background-color: var(--buttoncolour);
+  border-radius: 20px;
+}
+.checklist-img img{
+  max-width: 100%;
+  position: relative;
+  
+}
+.responsive {
+  max-width: 80%;
+  height: auto;
 }
 
 /*RESPONSIVENESS*/
