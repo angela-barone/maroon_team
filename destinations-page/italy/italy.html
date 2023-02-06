@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italy</title>
+    <link rel="stylesheet" href="italy.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> <!-- Box Icons -->
+    <link rel="icon" type="image/png" href="../Favicon.psd"> <!-- Favicon -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- Animations -->
+    
+</head>
+
+<body>
+    
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">Fly With Maroon</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="maroon_team\angela\landingpage.html">Home</a></li>
+            <li><a href="#team">Team and Mission</a></li>
+            <li><a href="destinations-main.html">Destinations</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Form</a></li>
+            <li><a href="checklist.html">Checklist</a></li>
+
+    <!-- Dark Mode -->
+     <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+
+    <!-- Top Banner Image -->
+    <div class="top-image" data-aos="fade-in" data-aos-duration="1500">
+    </div>
+
+    <!-- India - content -->
+    <section class="content">
+        <div class="content-text" data-aos="zoom-in" data-aos-duration="1500">
+            <p>Italy attracts millions of tourists every year thanks to its fascinating culture, natural landscapes, artistic sites, and renowned cuisine. Italy is also the country with the highest number of UNESCO World Heritage Sites in the world (58). <br><br> The Roman Empire, Middle Ages, Renaissance and the following centuries of the history of Italy have left many cultural artifacts that attract tourists. In general, the Italian cultural heritage is the largest in the world since it consists of 60 to 75 percent of all the artistic assets that exist on each continent! <sup><a href="https://en.wikipedia.org/wiki/Tourism_in_Italy">[1]</a></sup>.<br><br> <b>📍Fun Fact - Our Maroon team member Angela is from Italy 🎉</b></p>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <!-- Image slideshow container -->
+        <div class="slideshow-container" data-aos="fade-right" data-aos-duration="1500">
+
+            <!-- Images with number and caption text -->
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="Italy_1.jpg" style="width:85%" alt="Image showing The Colosseum"> 
+            <div class="text">Colosseum - the world’s largest amphitheater, is about 1900 years old.</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="Italy_2.jpg" style="width:85%" alt="Image showing Duomo di Milano">
+            <div class="text">The Duomo di Milano has around 3,400 statues, 135 gargoyles and 700 figures.</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="Italy_3.jpg" style="width:85%" alt="Image showing Lake Como">
+            <div class="text">Lake Como was called "Lario" in ancient times meaning "Deep place" - it is the deepest lake in Italy.</div>
+            </div>
+
+            <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="Italy_4.jpg" style="width:85%" alt="Image showing the Tower of Pisa">
+            <div class="text">The Leaning Tower of Pisa took some 200 years to build and is tilted about 15 feet to the south.</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="Italy_5.png" style="width:85%" alt="Image showing the Faraglioni on Capri Island">
+            <div class="text">The Faraglioni, the three rocks in Capri Island, is said to bring good luck if you pass through them.</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </section>
+
+    <!-- Contact Footer -->
+    <section class="contact" id="contact">
+        <div class="contact-box">
+            <h3>Fly With Maroon</h3>
+            <span>Connect With Us</span>
+            <div class="social">
+                <a href="https://www.facebook.com/profile.php?id=100089732212942"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://github.com/angela-barone/maroon_team"><i class="bx bxl-github"></i></a>
+            </div>
+        </div>
+        <div class="contact-box">
+            <h3>Created by the Maroon Team</h3>
+            <li><a href="#home">Angela</a></li>
+            <li><a href="#about">Ashwini</a></li>
+            <li><a href="#destinations">Klaudia</a></li>
+            <li><a href="#services">Vera</a></li>
+        </div>
+        
+        <div class="contact-box address">
+            <h3>Contact</h3>
+            <i class='bx bxs-map' ><span>44 Street London, UK</span></i>
+            <i class='bx bxs-phone' ><span>+1 333 333 3333</span></i>
+            <i class='bx bxs-envelope' ><span>CFG_Maroon@email.com</span></i>
+        </div>
+    </section>
+
+    <!-- JS File -->
+    <script src="italy.js" defer></script>
+
+    <!-- Scrolling animation JS File -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+
