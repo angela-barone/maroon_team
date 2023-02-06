@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United Kingdom</title>
+    <link rel="stylesheet" href="uk.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> <!-- Box Icons -->
+    <link rel="icon" type="image/png" href="../Favicon.psd"> <!-- Favicon -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- Animations -->
+    
+</head>
+
+<body>
+    
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">Fly With Maroon</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="maroon_team\angela\landingpage.html">Home</a></li>
+            <li><a href="#team">Team and Mission</a></li>
+            <li><a href="destinations-main.html">Destinations</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Form</a></li>
+            <li><a href="checklist.html">Checklist</a></li>
+
+    <!-- Dark Mode -->
+     <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+
+    <!-- Top Banner Image -->
+    <div class="top-image" data-aos="fade-in" data-aos-duration="1500">
+    </div>
+
+    <!-- UK - content -->
+    <section class="content">
+        <div class="content-text" data-aos="zoom-in" data-aos-duration="1500">
+            <p>Whether you’re in the United Kingdom (UK) for the first time, or have lived here your whole life and are looking for new places to visit, UK travel is all about variety. It’s about unearthing a mixture of iconic sights and hidden gems, ticking famous landmarks off your bucket-list one day and stumbling across a quirky local museum the next.<br><br> And, of course, the UK’s diversity is mirrored in its landscape too. From its rugged coastline studded with gold sand beaches and secret coves, to rolling countryside dotted with patchwork fields and crops of ancient woodland, to vertiginous peaks set above glistening meres and heather-clad moors, via kitschy seaside resorts, pretty-as-a-postcard villages and handsome market towns, there’s no shortage of places to visit in the United Kingdom<sup><a href="https://www.visitengland.com/uk-united-kingdom">[1]</a></sup>.<br><br> <b>📍Fun Fact - Our Maroon team's official sponsor "Code First Girls" is headquartered in the UK 🎉</b></p>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <!-- Image slideshow container -->
+        <div class="slideshow-container" data-aos="fade-right" data-aos-duration="1500">
+
+            <!-- Images with number and caption text -->
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="UK_1.jpg" style="width:85%" alt="Image showing Big Ben"> 
+            <div class="text">Big Ben, the largest four facing clock tower in the world, has helped keep London on time for 157 years.</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="UK_2.jpg" style="width:85%" alt="Image showing the Alnwick Castle">
+            <div class="text">Alnwick castle has been used as a filming location for many movies and TV shows including Harry Potter.</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="UK_3.jpg" style="width:85%" alt="Image showing the Buckingham Palace">
+            <div class="text">Buckingham Palace has been the residence of monarchs for centuries, with more than 700 rooms to cater the Royal Family.</div>
+            </div>
+
+            <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="UK_4.jpg" style="width:85%" alt="Image showing the London Eye">
+            <div class="text">The most paid-tourist attraction, the London Eye, has a capacity to accomodate 800 people per rotation.</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="UK_5.jpg" style="width:85%" alt="Image showing the British Museum">
+            <div class="text">Founded in 1753, The British Museum is the world's oldest national public museum.</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </section>
+
+    <!-- Contact Footer -->
+    <section class="contact" id="contact">
+        <div class="contact-box">
+            <h3>Fly With Maroon</h3>
+            <span>Connect With Us</span>
+            <div class="social">
+                <a href="https://www.facebook.com/profile.php?id=100089732212942"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://github.com/angela-barone/maroon_team"><i class="bx bxl-github"></i></a>
+            </div>
+        </div>
+        <div class="contact-box">
+            <h3>Created by the Maroon Team</h3>
+            <li><a href="#home">Angela</a></li>
+            <li><a href="#about">Ashwini</a></li>
+            <li><a href="#destinations">Klaudia</a></li>
+            <li><a href="#services">Vera</a></li>
+        </div>
+        
+        <div class="contact-box address">
+            <h3>Contact</h3>
+            <i class='bx bxs-map' ><span>44 Street London, UK</span></i>
+            <i class='bx bxs-phone' ><span>+1 333 333 3333</span></i>
+            <i class='bx bxs-envelope' ><span>CFG_Maroon@email.com</span></i>
+        </div>
+    </section>
+
+    <!-- JS File -->
+    <script src="uk.js" defer></script>
+
+    <!-- Scrolling animation JS File -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
