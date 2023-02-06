@@ -263,11 +263,6 @@ header {
   display: flex;
 }
 
-.contact {
-  background-color: #150e56;
-  color: white;
-}
-
 .plane-image {
   display: block;
   margin: 0 auto;
