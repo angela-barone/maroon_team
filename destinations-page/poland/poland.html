@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poland</title>
+    <link rel="stylesheet" href="poland.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> <!-- Box Icons -->
+    <link rel="icon" type="image/png" href="../Favicon.psd"> <!-- Favicon -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- Animations -->
+    
+</head>
+
+<body>
+    
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">Fly With Maroon</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="maroon_team\angela\landingpage.html">Home</a></li>
+            <li><a href="#team">Team and Mission</a></li>
+            <li><a href="destinations-main.html">Destinations</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Form</a></li>
+            <li><a href="checklist.html">Checklist</a></li>
+
+    <!-- Dark Mode -->
+     <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+
+    <!-- Top Banner Image -->
+    <div class="top-image" data-aos="fade-in" data-aos-duration="1500">
+    </div>
+
+    <!-- India - content -->
+    <section class="content">
+        <div class="content-text" data-aos="zoom-in" data-aos-duration="1500">
+            <p>In the 21st century, Poland is one of the safest countries in Europe, frequently visited by tourists. Poland has a diversified natural environment, which is relatively unaffected by human development. Visitors are attracted by mountains, sea-coast with wide sandy beaches, and forests, lakes, rivers<sup><a href="https://en.wikipedia.org/wiki/Tourism_in_Poland">[1]</a></sup>. <br><br> From the towering Tatra Mountains to the wild Baltic Sea, Poland is filled with vibrant cities known for their splendid heritage, mouthwatering cuisine and stunning architecture!<br><br> <b>📍Fun Fact - Our Maroon team member Klaudia is from Poland 🎉</b></p>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <!-- Image slideshow container -->
+        <div class="slideshow-container" data-aos="fade-right" data-aos-duration="1500">
+
+            <!-- Images with number and caption text -->
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="Poland_1.jpg" style="width:85%" alt="Image showing a view of the city of Gdańsk"> 
+            <div class="text">St. Mary’s Cathedral in Gdansk is the largest brick church in Europe, which can hold over 25,000 people.</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="Poland_2.jpg" style="width:85%" alt="Image showing the Niedzica Castle">
+            <div class="text">The Niedzica Castle, known as one of the most picturesque castles in the country, adorns the covers of many books.</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="Poland_3.jpeg" style="width:85%" alt="Image showing St.Joseph's Church at Kraków">
+            <div class="text">The St.Joseph's church was built between 1905 and 1909 and is known for it neo-gothic style.</div>
+            </div>
+
+            <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="Poland_4.jpg" style="width:85%" alt="Image showing the Tatra Mountains">
+            <div class="text">The Tatra Mountains forms a natural border between Poland to the north and Slovakia to the south.</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="Poland_5.jpg" style="width:85%" alt="Image showing The Wawel Royal Castle">
+            <div class="text">The Wawel Castle used to be a fortress to Poland's most important Monarchs, now a pride of the nation.</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </section>
+
+    <!-- Contact Footer -->
+    <section class="contact" id="contact">
+        <div class="contact-box">
+            <h3>Fly With Maroon</h3>
+            <span>Connect With Us</span>
+            <div class="social">
+                <a href="https://www.facebook.com/profile.php?id=100089732212942"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://github.com/angela-barone/maroon_team"><i class="bx bxl-github"></i></a>
+            </div>
+        </div>
+        <div class="contact-box">
+            <h3>Created by the Maroon Team</h3>
+            <li><a href="#home">Angela</a></li>
+            <li><a href="#about">Ashwini</a></li>
+            <li><a href="#destinations">Klaudia</a></li>
+            <li><a href="#services">Vera</a></li>
+        </div>
+            
+        <div class="contact-box address">
+            <h3>Contact</h3>
+            <i class='bx bxs-map' ><span>44 Street London, UK</span></i>
+            <i class='bx bxs-phone' ><span>+1 333 333 3333</span></i>
+            <i class='bx bxs-envelope' ><span>CFG_Maroon@email.com</span></i>
+        </div>
+    </section>
+    
+    <!-- JS File -->
+    <script src="poland.js" defer></script>
+
+    <!-- Scrolling animation JS File -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+</body>
+
