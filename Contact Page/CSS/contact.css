@@ -88,8 +88,11 @@ header {
 .connect {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
+  margin-top: 100px;
+  padding-bottom: 0;
 }
+
 .connect-text span {
   color: var(--main-color);
   font-weight: 500;
@@ -147,15 +150,16 @@ header {
 }
 
 .contact-form {
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin: 0;
+  padding-top: 0;
 }
 
 .contact-form form {
-  flex: 1 1 40rem;
   padding: 2rem;
   margin: 1rem;
   margin-top: 4rem;
@@ -165,7 +169,10 @@ header {
 
 .contact-form .content {
   flex: 1 1 40rem;
-  padding: 3rem 1rem;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+  margin-top: 80px;
 }
 
 .contact-form form .box {
@@ -174,6 +181,7 @@ header {
   border-bottom: 0.2rem solid rgba(0, 0, 0, 0.3);
   margin: 0.1rem 0;
   border-radius: 0.2rem;
+  padding: 5px;
 }
 
 .contact-form form .box::placeholder {
@@ -286,7 +294,7 @@ header {
   }
   header .navbar {
     position: absolute;
-    top: -400px;
+    top: -500px;
     left: 0;
     right: 0;
     display: flex;
