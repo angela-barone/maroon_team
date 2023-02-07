@@ -238,10 +238,10 @@ header {
   animation: rotate 3s ease-in-out 1;
 }
 
-/* .hide {
+.hide {
   display: none;
   visibility: hidden;
-} */
+} 
 
 @keyframes rotate {
   100% {
