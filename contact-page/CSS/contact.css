@@ -145,10 +145,6 @@ header {
   align-items: center;
 }
 
-.bx {
-  padding-left: 20px;
-}
-
 .contact-form {
   min-height: 50vh;
   display: flex;
